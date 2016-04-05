@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "omdbios", "omdbios\omdbios.csproj", "{95CE3F57-ABF2-445E-BCB5-904230FF5DED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95CE3F57-ABF2-445E-BCB5-904230FF5DED}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{95CE3F57-ABF2-445E-BCB5-904230FF5DED}.Debug|iPhone.Build.0 = Debug|iPhone
+		{95CE3F57-ABF2-445E-BCB5-904230FF5DED}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{95CE3F57-ABF2-445E-BCB5-904230FF5DED}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{95CE3F57-ABF2-445E-BCB5-904230FF5DED}.Release|iPhone.ActiveCfg = Release|iPhone
+		{95CE3F57-ABF2-445E-BCB5-904230FF5DED}.Release|iPhone.Build.0 = Release|iPhone
+		{95CE3F57-ABF2-445E-BCB5-904230FF5DED}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{95CE3F57-ABF2-445E-BCB5-904230FF5DED}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+EndGlobal
