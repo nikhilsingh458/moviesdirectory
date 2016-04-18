@@ -11,8 +11,8 @@ using UIKit;
 
 namespace omdbios
 {
-	[Register ("FirstViewController")]
-	partial class FirstViewController
+	[Register ("MoviesViewController")]
+	partial class MoviesViewController
 	{
 		[Outlet]
 		[GeneratedCode ("iOS Designer", "1.0")]

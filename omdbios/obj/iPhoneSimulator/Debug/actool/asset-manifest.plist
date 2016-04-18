@@ -6,8 +6,8 @@
 	<dict>
 		<key>output-files</key>
 		<array>
-			<string>/Users/nikhilsingh/GitHub/omdbxamarinios/omdbios/omdbios/obj/iPhoneSimulator/Debug/actool/bundle/Assets.car</string>
-			<string>/Users/nikhilsingh/GitHub/omdbxamarinios/omdbios/omdbios/obj/iPhoneSimulator/Debug/actool/partial-info.plist</string>
+			<string>/Users/nikhilsingh/GitHub/omdbxamarinios/omdbios/obj/iPhoneSimulator/Debug/actool/bundle/Assets.car</string>
+			<string>/Users/nikhilsingh/GitHub/omdbxamarinios/omdbios/obj/iPhoneSimulator/Debug/actool/partial-info.plist</string>
 		</array>
 	</dict>
 	<key>com.apple.actool.document.warnings</key>
@@ -18,7 +18,7 @@
 				<string>./AppIcons.appiconset/[car][120x120][][][1x][2d][(null)]</string>
 			</array>
 			<key>catalog</key>
-			<string>/Users/nikhilsingh/GitHub/omdbxamarinios/omdbios/omdbios/Resources/Images.xcassets</string>
+			<string>/Users/nikhilsingh/GitHub/omdbxamarinios/omdbios/Resources/Images.xcassets</string>
 			<key>message</key>
 			<string>The app icon set "AppIcons" has an unassigned child.</string>
 			<key>type</key>

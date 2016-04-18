@@ -8,30 +8,15 @@
 	<dict/>
 	<key>com.apple.ibtool.document.warnings</key>
 	<dict>
-		<key>10</key>
+		<key>145</key>
 		<array>
 			<dict>
 				<key>affected-objects</key>
 				<array>
-					<string>10</string>
+					<string>145</string>
 				</array>
 				<key>message</key>
-				<string>Prototype table cells must have reuse identifiers</string>
-				<key>type</key>
-				<string>IBUnsupportedConfiguration</string>
-				<key>type-value</key>
-				<integer>9</integer>
-			</dict>
-		</array>
-		<key>14</key>
-		<array>
-			<dict>
-				<key>affected-objects</key>
-				<array>
-					<string>14</string>
-				</array>
-				<key>message</key>
-				<string>Prototype table cells must have reuse identifiers</string>
+				<string>Segues initiated directly from view controllers must have an identifier</string>
 				<key>type</key>
 				<string>IBUnsupportedConfiguration</string>
 				<key>type-value</key>

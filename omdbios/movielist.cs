@@ -2,15 +2,11 @@
 
 namespace omdbios
 {
-    public class MovieList
-    {
-        public Search[] Search { get; set; }
-    }
-    public class Search
-    {
-        public string Title { get; set; }
-        public string Year { get; set; }
-        public string imdbID { get; set; }
-        public string Type { get; set; }
-    }
+  public class MovieList
+   {
+	public string Title { get; set; }
+	public string Year { get; set; }
+	public string ImdbID { get; set; }
+	public string Type { get; set; }
+	}
 }

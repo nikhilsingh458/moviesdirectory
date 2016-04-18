@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "omdbios", "omdbios\omdbios.csproj", "{95CE3F57-ABF2-445E-BCB5-904230FF5DED}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoviesDirectory", "omdbios\MoviesDirectory.csproj", "{95CE3F57-ABF2-445E-BCB5-904230FF5DED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

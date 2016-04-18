@@ -1,0 +1,25 @@
+﻿<Properties StartupItem="omdbios/MoviesDirectory.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone6s.9.1" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="omdbios/DetailsViewController.cs">
+    <Files>
+      <File FileName="omdbios/MoviesViewController.cs" Line="42" Column="56" />
+      <File FileName="omdbios/MoviesItemDataSource.cs" Line="23" Column="26" />
+      <File FileName="omdbios/DetailsViewController.cs" Line="64" Column="52" />
+      <File FileName="omdbios/MoviesViewController.designer.cs" Line="25" Column="28" />
+      <File FileName="omdbios/DetailsViewController.designer.cs" Line="1" Column="1" />
+      <File FileName="omdbios/Service/RequestType.cs" Line="5" Column="25" />
+      <File FileName="omdbios/SecondViewController.cs" Line="21" Column="14" />
+      <File FileName="omdbios/Service/OMDBService.cs" Line="79" Column="56" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/nikhilsingh/GitHub/omdbxamarinios/omdbios/omdbios/FirstViewController.cs" line="17" column="1" />
+      <Breakpoint file="/Users/nikhilsingh/GitHub/omdbxamarinios/omdbios/FirstViewController.cs" line="97" column="1" />
+      <Breakpoint file="/Users/nikhilsingh/GitHub/omdbxamarinios/omdbios/Service/OMDBService.cs" line="235" column="1" />
+      <Breakpoint file="/Users/nikhilsingh/GitHub/omdbxamarinios/omdbios/FirstViewController.cs" line="98" column="1" />
+      <Breakpoint file="/Users/nikhilsingh/GitHub/omdbxamarinios/omdbios/Service/OMDBService.cs" line="224" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
