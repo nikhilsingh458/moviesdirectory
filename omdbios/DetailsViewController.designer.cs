@@ -9,18 +9,22 @@ using System;
 using System.CodeDom.Compiler;
 using UIKit;
 
-namespace omdbios
+namespace MoviesDirectory
 {
 	[Register ("DetailsViewController")]
 	partial class DetailsViewController
 	{
 		[Outlet]
 		[GeneratedCode ("iOS Designer", "1.0")]
+		UIButton btnBack { get; set; }
+
+		[Outlet]
+		[GeneratedCode ("iOS Designer", "1.0")]
 		UIImageView imgPoster { get; set; }
 
 		[Outlet]
 		[GeneratedCode ("iOS Designer", "1.0")]
-		UILabel lblActor { get; set; }
+		UILabel lblActors { get; set; }
 
 		[Outlet]
 		[GeneratedCode ("iOS Designer", "1.0")]
@@ -28,7 +32,7 @@ namespace omdbios
 
 		[Outlet]
 		[GeneratedCode ("iOS Designer", "1.0")]
-		UILabel lblDirectorActor { get; set; }
+		UILabel lblDirector { get; set; }
 
 		[Outlet]
 		[GeneratedCode ("iOS Designer", "1.0")]
@@ -50,23 +54,31 @@ namespace omdbios
 		[GeneratedCode ("iOS Designer", "1.0")]
 		UILabel lblYearReleased { get; set; }
 
+		[Action ("BackButton_TouchupInside:")]
+		[GeneratedCode ("iOS Designer", "1.0")]
+		partial void BackButton_TouchupInside (UIButton sender);
+
 		void ReleaseDesignerOutlets ()
 		{
+			if (btnBack != null) {
+				btnBack.Dispose ();
+				btnBack = null;
+			}
 			if (imgPoster != null) {
 				imgPoster.Dispose ();
 				imgPoster = null;
 			}
-			if (lblActor != null) {
-				lblActor.Dispose ();
-				lblActor = null;
+			if (lblActors != null) {
+				lblActors.Dispose ();
+				lblActors = null;
 			}
 			if (lblAwards != null) {
 				lblAwards.Dispose ();
 				lblAwards = null;
 			}
-			if (lblDirectorActor != null) {
-				lblDirectorActor.Dispose ();
-				lblDirectorActor = null;
+			if (lblDirector != null) {
+				lblDirector.Dispose ();
+				lblDirector = null;
 			}
 			if (lblGenre != null) {
 				lblGenre.Dispose ();

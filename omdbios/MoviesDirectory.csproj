@@ -119,7 +119,6 @@
     </Compile>
     <Compile Include="Service\OMDBService.cs" />
     <Compile Include="movie.cs" />
-    <Compile Include="movielist.cs" />
     <Compile Include="MoviesItemDataSource.cs" />
     <Compile Include="DetailsViewController.cs" />
     <Compile Include="DetailsViewController.designer.cs">
@@ -134,5 +133,8 @@
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
     <Folder Include="Service\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\1461511844_icon-ios7-arrow-back.png" />
   </ItemGroup>
 </Project>

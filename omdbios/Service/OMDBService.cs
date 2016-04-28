@@ -9,7 +9,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Threading;
 
-namespace omdbios
+namespace MoviesDirectory
 {
 	public class OMDBService
 	{
@@ -17,8 +17,8 @@ namespace omdbios
 
 		const string omdbUrl = "http://www.omdbapi.com/?"; // Base omdb api URL
 		public string omdbKey; // A key is required for poster images.
-		public Movie newMovie; // Initialize movie object
-		public MovieList newMovieList; // Initialize movie list object
+		public Movie movie; // Initialize movie object
+		public Movie movieList; // Initialize movie list object
 		private bool loop = false;
 
 		#endregion
@@ -44,8 +44,8 @@ namespace omdbios
 				HttpResponseMessage response = await client.GetAsync(omdbUrl + "t=" + query);
 				if (response.IsSuccessStatusCode)
 				{
-					newMovie = await response.Content.ReadAsAsync<Movie>();
-					return newMovie;
+					movie = await response.Content.ReadAsAsync<Movie>();
+					return movie;
 				}
 				else
 				{
@@ -55,7 +55,7 @@ namespace omdbios
 		}
 
 
-		public async Task<MovieList> GetMovieList(string query, string apiKey = ""){
+		public async Task<Movie> GetMovieList(string query, string apiKey = ""){
 			using (var client = new HttpClient())
 			{
 				client.BaseAddress = new Uri(omdbUrl);
@@ -65,8 +65,8 @@ namespace omdbios
 				HttpResponseMessage response = await client.GetAsync(omdbUrl + "s=" + query);
 				if (response.IsSuccessStatusCode)
 				{
-					newMovieList = await response.Content.ReadAsAsync<MovieList>();
-					return newMovieList;
+					movieList = await response.Content.ReadAsAsync<Movie>();
+					return movieList;
 				}
 				else
 				{
@@ -76,7 +76,7 @@ namespace omdbios
 		}
 
 
-		public async Task<MovieList> GetEpisodesAndSeriesList(string query,string episodeorseries, string apiKey = ""){
+		public async Task<Movie> GetEpisodesAndSeriesList(string query,string episodeorseries, string apiKey = ""){
 			using (var client = new HttpClient())
 			{
 				client.BaseAddress = new Uri(omdbUrl);
@@ -86,8 +86,8 @@ namespace omdbios
 				HttpResponseMessage response = await client.GetAsync(omdbUrl + "s=" + query +"&type="+ episodeorseries);
 				if (response.IsSuccessStatusCode)
 				{
-					newMovieList = await response.Content.ReadAsAsync<MovieList>();
-					return newMovieList;
+					movieList = await response.Content.ReadAsAsync<Movie>();
+					return movieList;
 				}
 				else
 				{

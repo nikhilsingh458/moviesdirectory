@@ -1,6 +1,6 @@
 ﻿using UIKit;
 
-namespace omdbios
+namespace MoviesDirectory
 {
 	public class Application
 	{

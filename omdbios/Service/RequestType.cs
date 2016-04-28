@@ -1,17 +1,11 @@
 ﻿using System;
 
-namespace omdbios
+namespace MoviesDirectory
 {
 	public enum RequestType
 	{
 		FIND_MOVIE,
-		MOVIE_DATA,
-		LOGIN,
-		LOGOUT,
-		REGISTER,
-		REGISTER_MIN,
-		PLAY_REAL,
-		PLAY_DEMO,
+		MOVIE_DATA
 
 	}
 }

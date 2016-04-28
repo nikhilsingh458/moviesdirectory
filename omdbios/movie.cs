@@ -1,11 +1,11 @@
 ﻿using System;
 
-namespace omdbios
+namespace MoviesDirectory
 {
     public class Movie
     {
             public string Title { get; set; }
-            public string Year { get; set; }
+			public string Year { get; set; }
             public string Rated { get; set; }
             public string Released { get; set; }
             public string Runtime { get; set; }
@@ -17,9 +17,9 @@ namespace omdbios
             public string Country { get; set; }
             public string Awards { get; set; }
             public string Poster { get; set; }
-            public string imdbRating { get; set; }
-            public string imdbVotes { get; set; }
-            public string imdbID { get; set; }
+			public string ImdbRating { get; set; }
+			public string ImdbVotes { get; set; }
+            public string ImdbID { get; set; }
             public string Type { get; set; }
     }
 }

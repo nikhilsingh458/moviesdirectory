@@ -9,10 +9,6 @@
       <LogicalName>Main.storyboardc/31-view-32.nib</LogicalName>
       <Optimize>false</Optimize>
     </_BundleResourceWithLogicalName>
-    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/8rJ-Kc-sve-view-QS5-Rx-YEW.nib">
-      <LogicalName>Main.storyboardc/8rJ-Kc-sve-view-QS5-Rx-YEW.nib</LogicalName>
-      <Optimize>false</Optimize>
-    </_BundleResourceWithLogicalName>
     <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/9pv-A4-QxB-view-tsR-hK-woN.nib">
       <LogicalName>Main.storyboardc/9pv-A4-QxB-view-tsR-hK-woN.nib</LogicalName>
       <Optimize>false</Optimize>
@@ -25,8 +21,8 @@
       <LogicalName>Main.storyboardc/Info.plist</LogicalName>
       <Optimize>false</Optimize>
     </_BundleResourceWithLogicalName>
-    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/UITabBarController-49e-Tb-3d3.nib">
-      <LogicalName>Main.storyboardc/UITabBarController-49e-Tb-3d3.nib</LogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/MoviesViewController.nib">
+      <LogicalName>Main.storyboardc/MoviesViewController.nib</LogicalName>
       <Optimize>false</Optimize>
     </_BundleResourceWithLogicalName>
   </ItemGroup>

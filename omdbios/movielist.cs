@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace omdbios
+namespace MoviesDirectory
 {
   public class MovieList
    {

@@ -1,11 +1,10 @@
 /Users/nikhilsingh/GitHub/omdbxamarinios/omdbios/obj/iPhoneSimulator/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
 /Users/nikhilsingh/GitHub/omdbxamarinios/omdbios/obj/iPhoneSimulator/Debug/ibtool/LaunchScreen.nib
 /Users/nikhilsingh/GitHub/omdbxamarinios/omdbios/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/31-view-32.nib
-/Users/nikhilsingh/GitHub/omdbxamarinios/omdbios/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/8rJ-Kc-sve-view-QS5-Rx-YEW.nib
 /Users/nikhilsingh/GitHub/omdbxamarinios/omdbios/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/9pv-A4-QxB-view-tsR-hK-woN.nib
 /Users/nikhilsingh/GitHub/omdbxamarinios/omdbios/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/DetailsViewController.nib
 /Users/nikhilsingh/GitHub/omdbxamarinios/omdbios/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/Info.plist
-/Users/nikhilsingh/GitHub/omdbxamarinios/omdbios/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/UITabBarController-49e-Tb-3d3.nib
+/Users/nikhilsingh/GitHub/omdbxamarinios/omdbios/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/UIViewController-9pv-A4-QxB.nib
 /Users/nikhilsingh/GitHub/omdbxamarinios/omdbios/obj/iPhoneSimulator/Debug/ibtool/_BundleResourceWithLogicalName.items
 /Users/nikhilsingh/GitHub/omdbxamarinios/omdbios/obj/iPhoneSimulator/Debug/actool/partial-info.plist
 /Users/nikhilsingh/GitHub/omdbxamarinios/omdbios/obj/iPhoneSimulator/Debug/actool/asset-manifest.plist
@@ -21,3 +20,5 @@
 /Users/nikhilsingh/GitHub/omdbxamarinios/omdbios/bin/iPhoneSimulator/Debug/System.Net.Http.Primitives.dll
 /Users/nikhilsingh/GitHub/omdbxamarinios/omdbios/bin/iPhoneSimulator/Debug/System.Net.Http.Extensions.dll
 /Users/nikhilsingh/GitHub/omdbxamarinios/omdbios/bin/iPhoneSimulator/Debug/System.Net.Http.Formatting.dll
+/Users/nikhilsingh/GitHub/omdbxamarinios/omdbios/obj/iPhoneSimulator/Debug/optimized/1461511844_icon-ios7-arrow-back.png
+/Users/nikhilsingh/GitHub/omdbxamarinios/omdbios/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/MoviesViewController.nib
