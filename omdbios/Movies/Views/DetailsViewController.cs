@@ -7,9 +7,14 @@ using System.Json;
 using System.Threading.Tasks;
 using System.Net;
 using System.Net.Http;
+using System.Text;
+using System.Linq;
 
 namespace MoviesDirectory
 {
+	/// <summary>
+	/// View controller to show the details of selected movie.
+	/// </summary>
 	partial class DetailsViewController : UIViewController
 	{
 		#region Properties
@@ -21,6 +26,10 @@ namespace MoviesDirectory
 
 		#region Constructor
 
+		/// <summary>
+		/// Initializes a new instance of the <see cref="MoviesDirectory.DetailsViewController"/> class.
+		/// </summary>
+		/// <param name="handle">Handle.</param>
 		public DetailsViewController (IntPtr handle) : base (handle)
 		{
 		}
@@ -29,13 +38,14 @@ namespace MoviesDirectory
 
 		#region Overridden Methods
 
+		/// <summary>
+		/// Called after the controller's view is loaded into memory.
+		/// </summary>
 		public override void ViewDidLoad ()
 		{
 			base.ViewDidLoad ();
 			this.Title = "Movie Details";
 			UIBarButtonItem backbutton = new UIBarButtonItem("Back", UIBarButtonItemStyle.Done, null);
-			//BackNavigationItem.BackBarButtonItem = backbutton;
-			//BackNavigationItem.BackBarButtonItem.Enabled = true;
 			this.NavigationItem.BackBarButtonItem = backbutton;
 			this.NavigationItem.BackBarButtonItem.Enabled = true;
 			ConfigureView (MovieDetailItem);
@@ -45,6 +55,10 @@ namespace MoviesDirectory
 
 		#region Methods
 
+		/// <summary>
+		/// Sets the detail item.
+		/// </summary>
+		/// <param name="newMovieItem">New movie item.</param>
 		public void SetDetailItem (Movie newMovieItem)
 		{
 			if (MovieDetailItem != newMovieItem) {
@@ -53,6 +67,10 @@ namespace MoviesDirectory
 			}
 		}
 
+		/// <summary>
+		/// Configures the view and the controls Associated
+		/// </summary>
+		/// <param name="newDetailItem">New detail item.</param>
 		async void ConfigureView (Movie newDetailItem)
 		{
 			if (!IsViewLoaded)
@@ -62,17 +80,22 @@ namespace MoviesDirectory
 			var moviedetail=await service.GetMovie (newDetailItem.Title, "");
 			movieDetails = (Movie)moviedetail;
 				
-			lblAwards.Text = String.Concat("Awards : ",movieDetails.Awards);
-			lblDirector.Text = string.Concat ("Director : ", movieDetails.Director);
-			lblGenre.Text = string.Concat ("Genre : ",movieDetails.Genre);
-			lblIMDBRatingReviews.Text = string.Concat ("IMDB Rating : ",movieDetails.ImdbRating,"  IMDB Votes : ",movieDetails.ImdbVotes);
-			lblLanguageCountry.Text = string.Concat ("Language : ",movieDetails.Country," Country : ",movieDetails.Country);
-			lblTitle.Text = movieDetails.Title;
-			lblYearReleased.Text = string.Concat ("Year Released : ",movieDetails.Released);
-			lblActors.Text=String.Concat("Actor : ",movieDetails.Actors);
-			imgPoster.Image = await LoadImage (movieDetails.Poster);
+			labelAwards.Text = GetLines(movieDetails.Awards).ToString();
+			labelDirectors.Text = GetLines( movieDetails.Director).ToString();
+			labelGenre.Text = GetLines(movieDetails.Genre).ToString();
+			labelIMDBRating.Text = string.Concat (movieDetails.IMDBRating);
+			labelLanguage.Text = GetLines(movieDetails.Language).ToString();
+			labelTitle.Text = movieDetails.Title;
+			labelReleaseDate.Text = movieDetails.Released;
+			labelActors.Text=GetLines(movieDetails.Actors).ToString();
+			imagePoster.Image = await LoadImage (movieDetails.Poster);
 		}
 
+		/// <summary>
+		/// Loads the image asynchronously
+		/// </summary>
+		/// <returns>The image.</returns>
+		/// <param name="imageUrl">Image URL.</param>
 		public async Task<UIImage> LoadImage (string imageUrl)
 		{
 			var httpClient = new HttpClient();
@@ -86,6 +109,24 @@ namespace MoviesDirectory
 			return UIImage.LoadFromData (NSData.FromArray (contents));
 		}
 
+		/// <summary>
+		/// Split the text after comma(,) and display that in different line
+		/// </summary>
+		/// <returns>string with new lines</returns>
+		/// <param name="strvalue">string value with comma's</param>
+		public StringBuilder GetLines(string strvalue)
+		{
+			StringBuilder appendstring = new StringBuilder();
+			List<string> strwords = strvalue.Split(',').Select(p => p.Trim()).ToList();
+
+			for (int wordscount = 0; wordscount < (strwords.Count - 1); wordscount++)
+			{
+				appendstring.Append(strwords[wordscount] + "\n");
+			}
+			appendstring.Append(strwords[strwords.Count - 1]);
+
+			return appendstring;
+		}
 
 		partial void BackButton_TouchupInside (UIButton sender)
 		{

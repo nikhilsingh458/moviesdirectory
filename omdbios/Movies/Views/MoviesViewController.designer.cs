@@ -16,22 +16,22 @@ namespace MoviesDirectory
 	{
 		[Outlet]
 		[GeneratedCode ("iOS Designer", "1.0")]
+		UISearchBar MoviesSearchBar { get; set; }
+
+		[Outlet]
+		[GeneratedCode ("iOS Designer", "1.0")]
 		UITableView MoviesTableView { get; set; }
 
 		[Outlet]
 		[GeneratedCode ("iOS Designer", "1.0")]
 		UISearchDisplayController searchDisplayController { get; set; }
 
-		[Outlet]
-		[GeneratedCode ("iOS Designer", "1.0")]
-		UITextField SearchTextField { get; set; }
-
-		[Action ("textview_Enter:")]
-		[GeneratedCode ("iOS Designer", "1.0")]
-		partial void textview_Enter (UITextField sender);
-
 		void ReleaseDesignerOutlets ()
 		{
+			if (MoviesSearchBar != null) {
+				MoviesSearchBar.Dispose ();
+				MoviesSearchBar = null;
+			}
 			if (MoviesTableView != null) {
 				MoviesTableView.Dispose ();
 				MoviesTableView = null;
@@ -39,10 +39,6 @@ namespace MoviesDirectory
 			if (searchDisplayController != null) {
 				searchDisplayController.Dispose ();
 				searchDisplayController = null;
-			}
-			if (SearchTextField != null) {
-				SearchTextField.Dispose ();
-				SearchTextField = null;
 			}
 		}
 	}

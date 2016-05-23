@@ -4,13 +4,14 @@
 /Users/nikhilsingh/GitHub/omdbxamarinios/omdbios/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/9pv-A4-QxB-view-tsR-hK-woN.nib
 /Users/nikhilsingh/GitHub/omdbxamarinios/omdbios/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/DetailsViewController.nib
 /Users/nikhilsingh/GitHub/omdbxamarinios/omdbios/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/Info.plist
-/Users/nikhilsingh/GitHub/omdbxamarinios/omdbios/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/UIViewController-9pv-A4-QxB.nib
+/Users/nikhilsingh/GitHub/omdbxamarinios/omdbios/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/MoviesViewController.nib
 /Users/nikhilsingh/GitHub/omdbxamarinios/omdbios/obj/iPhoneSimulator/Debug/ibtool/_BundleResourceWithLogicalName.items
 /Users/nikhilsingh/GitHub/omdbxamarinios/omdbios/obj/iPhoneSimulator/Debug/actool/partial-info.plist
 /Users/nikhilsingh/GitHub/omdbxamarinios/omdbios/obj/iPhoneSimulator/Debug/actool/asset-manifest.plist
 /Users/nikhilsingh/GitHub/omdbxamarinios/omdbios/obj/iPhoneSimulator/Debug/actool/bundle/Assets.car
 /Users/nikhilsingh/GitHub/omdbxamarinios/omdbios/obj/iPhoneSimulator/Debug/actool/_PartialAppManifest.items
 /Users/nikhilsingh/GitHub/omdbxamarinios/omdbios/obj/iPhoneSimulator/Debug/actool/_BundleResourceWithLogicalName.items
+/Users/nikhilsingh/GitHub/omdbxamarinios/omdbios/obj/iPhoneSimulator/Debug/optimized/1461511844_icon-ios7-arrow-back.png
 /Users/nikhilsingh/GitHub/omdbxamarinios/omdbios/obj/iPhoneSimulator/Debug/optimized/
 /Users/nikhilsingh/GitHub/omdbxamarinios/omdbios/bin/iPhoneSimulator/Debug/omdbios.exe.mdb
 /Users/nikhilsingh/GitHub/omdbxamarinios/omdbios/bin/iPhoneSimulator/Debug/omdbios.exe
@@ -20,5 +21,3 @@
 /Users/nikhilsingh/GitHub/omdbxamarinios/omdbios/bin/iPhoneSimulator/Debug/System.Net.Http.Primitives.dll
 /Users/nikhilsingh/GitHub/omdbxamarinios/omdbios/bin/iPhoneSimulator/Debug/System.Net.Http.Extensions.dll
 /Users/nikhilsingh/GitHub/omdbxamarinios/omdbios/bin/iPhoneSimulator/Debug/System.Net.Http.Formatting.dll
-/Users/nikhilsingh/GitHub/omdbxamarinios/omdbios/obj/iPhoneSimulator/Debug/optimized/1461511844_icon-ios7-arrow-back.png
-/Users/nikhilsingh/GitHub/omdbxamarinios/omdbios/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/MoviesViewController.nib

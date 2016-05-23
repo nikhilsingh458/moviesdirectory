@@ -14,24 +14,8 @@ namespace MoviesDirectory
 	[Register ("SecondViewController")]
 	partial class SecondViewController
 	{
-		[Outlet]
-		[GeneratedCode ("iOS Designer", "1.0")]
-		UITableView EpisodeTableView { get; set; }
-
-		[Outlet]
-		[GeneratedCode ("iOS Designer", "1.0")]
-		UITextField lblEpisodeName { get; set; }
-
 		void ReleaseDesignerOutlets ()
 		{
-			if (EpisodeTableView != null) {
-				EpisodeTableView.Dispose ();
-				EpisodeTableView = null;
-			}
-			if (lblEpisodeName != null) {
-				lblEpisodeName.Dispose ();
-				lblEpisodeName = null;
-			}
 		}
 	}
 }

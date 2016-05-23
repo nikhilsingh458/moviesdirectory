@@ -5,6 +5,9 @@ using System.Collections.ObjectModel;
 
 namespace MoviesDirectory
 {
+	/// <summary>
+	/// Second view controller.
+	/// </summary>
 	public partial class SecondViewController : UIViewController
 	{
 		public Movie movieDetails{ get; set; }
@@ -18,7 +21,7 @@ namespace MoviesDirectory
 		public override void ViewDidLoad ()
 		{
 			base.ViewDidLoad ();	
-			lblEpisodeName.Text="Episodes and Series : man";
+			//lblEpisodeName.Text="Episodes and Series : man";
 			GetMoviesData ();
 			// Perform any additional setup after loading the view, typically from a nib.
 		}
@@ -28,8 +31,8 @@ namespace MoviesDirectory
 			OMDBService service = new OMDBService ();
 			var moviedetail=await service.GetEpisodesAndSeriesList ("man", "episode", "");
 			//Movies = (Movie)moviedetail;
-			EpisodeTableView.ReloadData ();
-			EpisodeTableView.Source = dataSource = new MoviesItemDataSource (this, Movies);
+			//EpisodeTableView.ReloadData ();
+			//EpisodeTableView.Source = dataSource = new MoviesItemDataSource (this, Movies);
 		}
 
 		public override void DidReceiveMemoryWarning ()

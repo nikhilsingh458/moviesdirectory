@@ -113,26 +113,38 @@
   <ItemGroup>
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
-    <Compile Include="SecondViewController.cs" />
-    <Compile Include="SecondViewController.designer.cs">
-      <DependentUpon>SecondViewController.cs</DependentUpon>
-    </Compile>
     <Compile Include="Service\OMDBService.cs" />
-    <Compile Include="movie.cs" />
     <Compile Include="MoviesItemDataSource.cs" />
-    <Compile Include="DetailsViewController.cs" />
-    <Compile Include="DetailsViewController.designer.cs">
+    <Compile Include="Movies\Models\movie.cs" />
+    <Compile Include="Movies\Views\DetailsViewController.cs" />
+    <Compile Include="Movies\Views\DetailsViewController.designer.cs">
       <DependentUpon>DetailsViewController.cs</DependentUpon>
     </Compile>
-    <Compile Include="MoviesViewController.cs" />
-    <Compile Include="MoviesViewController.designer.cs">
+    <Compile Include="Movies\Views\MoviesViewController.cs" />
+    <Compile Include="Movies\Views\MoviesViewController.designer.cs">
       <DependentUpon>MoviesViewController.cs</DependentUpon>
     </Compile>
-    <Compile Include="Service\RequestType.cs" />
+    <Compile Include="Movies\Views\SecondViewController.cs" />
+    <Compile Include="Movies\Views\SecondViewController.designer.cs">
+      <DependentUpon>SecondViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Movies\Interfaces\IMoviesListView.cs" />
+    <Compile Include="Movies\Presenters\MoviesListPresenter.cs" />
+    <Compile Include="Enums\RequestType.cs" />
+    <Compile Include="CustomViewCell.cs" />
+    <Compile Include="CustomViewCell.designer.cs">
+      <DependentUpon>CustomViewCell.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
     <Folder Include="Service\" />
+    <Folder Include="Movies\" />
+    <Folder Include="Movies\Interfaces\" />
+    <Folder Include="Movies\Presenters\" />
+    <Folder Include="Movies\Models\" />
+    <Folder Include="Movies\Views\" />
+    <Folder Include="Enums\" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\1461511844_icon-ios7-arrow-back.png" />

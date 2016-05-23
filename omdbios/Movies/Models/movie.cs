@@ -2,6 +2,9 @@
 
 namespace MoviesDirectory
 {
+	/// <summary>
+	/// Movie model class
+	/// </summary>
     public class Movie
     {
             public string Title { get; set; }
@@ -17,9 +20,9 @@ namespace MoviesDirectory
             public string Country { get; set; }
             public string Awards { get; set; }
             public string Poster { get; set; }
-			public string ImdbRating { get; set; }
+			public string IMDBRating { get; set; }
 			public string ImdbVotes { get; set; }
-            public string ImdbID { get; set; }
+            public string IMDBID { get; set; }
             public string Type { get; set; }
     }
 }
