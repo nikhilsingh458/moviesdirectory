@@ -9,6 +9,7 @@ using System.Net;
 using System.Net.Http;
 using System.Text;
 using System.Linq;
+using System.Drawing;
 
 namespace MoviesDirectory
 {
@@ -81,15 +82,54 @@ namespace MoviesDirectory
 			movieDetails = (Movie)moviedetail;
 				
 			labelAwards.Text = GetLines(movieDetails.Awards).ToString();
+			ResizeHeightWithText (labelAwards);
+
 			labelDirectors.Text = GetLines( movieDetails.Director).ToString();
+			ResizeHeightWithText (labelDirectors);
+
 			labelGenre.Text = GetLines(movieDetails.Genre).ToString();
-			labelIMDBRating.Text = string.Concat (movieDetails.IMDBRating);
+			ResizeHeightWithText (labelGenre);
+
+			labelIMDBRating.Text = movieDetails.IMDBRating;
+
 			labelLanguage.Text = GetLines(movieDetails.Language).ToString();
+			ResizeHeightWithText (labelLanguage);
+
 			labelTitle.Text = movieDetails.Title;
+
 			labelReleaseDate.Text = movieDetails.Released;
+
 			labelActors.Text=GetLines(movieDetails.Actors).ToString();
-			imagePoster.Image = await LoadImage (movieDetails.Poster);
+			ResizeHeightWithText (labelActors);
+
+			if (movieDetails.Poster.ToUpper () != "N/A") {
+				imagePoster.Image = await LoadImage (movieDetails.Poster);
+			}
 		}
+
+		/// <summary>
+		/// Resizes the height with text.For Dynamic Resizing of the controls height.
+		/// </summary>
+		/// <param name="label">Current label</param>
+		/// <param name="maxHeight">Max height.</param>
+		void ResizeHeightWithText(UILabel label,float maxHeight = 960f) 
+		{
+			float width = (float)label.Frame.Width; 
+			SizeF size = (SizeF)((NSString)label.Text).StringSize(label.Font,constrainedToSize:new SizeF(width,maxHeight),
+				lineBreakMode:UILineBreakMode.WordWrap);
+
+			if (label.IsEqual (labelActors))
+					this.constraintLblActorsHeight.Constant = size.Height;
+			if (label.IsEqual(labelDirectors))
+				this.constraintLblDirectorsHeight.Constant = size.Height;
+			if (label.IsEqual(labelGenre))
+				this._constraintlblGenreHeight.Constant = size.Height;
+			if (label.IsEqual(labelLanguage))
+				this.constraintLblLanguagesHeight.Constant = size.Height;
+			if (label.IsEqual(labelAwards))
+				this.constraintlblAwardsHeight.Constant = size.Height;
+		}
+
 
 		/// <summary>
 		/// Loads the image asynchronously
@@ -128,10 +168,13 @@ namespace MoviesDirectory
 			return appendstring;
 		}
 
+		/// <summary>
+		/// Back button touch Event
+		/// </summary>
+		/// <param name="sender">Sender.</param>
 		partial void BackButton_TouchupInside (UIButton sender)
 		{
 			MoviesViewController ctrlr = (MoviesViewController)this.Storyboard.InstantiateViewController("MoviesViewController") as MoviesViewController;
-			IntPtr intpr = IntPtr.Zero;
 			this.PresentViewController (ctrlr, false, null);
 		}
 		#endregion

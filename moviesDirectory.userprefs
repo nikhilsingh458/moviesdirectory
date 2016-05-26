@@ -2,11 +2,12 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPad2.9.1" />
   <MonoDevelop.Ide.Workbench ActiveDocument="omdbios/Movies/Views/MoviesViewController.cs">
     <Files>
-      <File FileName="omdbios/Movies/Presenters/MoviesListPresenter.cs" Line="1" Column="1" />
-      <File FileName="omdbios/Movies/Views/MoviesViewController.cs" Line="58" Column="4" />
+      <File FileName="omdbios/Movies/Presenters/MoviesListPresenter.cs" Line="13" Column="3" />
+      <File FileName="omdbios/Movies/Views/MoviesViewController.cs" Line="20" Column="16" />
       <File FileName="omdbios/Service/OMDBService.cs" Line="1" Column="1" />
       <File FileName="omdbios/Movies/Models/movie.cs" Line="1" Column="1" />
       <File FileName="omdbios/MoviesItemDataSource.cs" Line="1" Column="1" />
+      <File FileName="omdbios/Movies/Views/DetailsViewController.cs" Line="1" Column="1" />
       <File FileName="omdbios/Main.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
@@ -14,9 +15,7 @@
     <BreakpointStore>
       <Breakpoint file="/Users/nikhilsingh/GitHub/omdbxamarinios/omdbios/omdbios/FirstViewController.cs" line="17" column="1" />
       <Breakpoint file="/Users/nikhilsingh/GitHub/omdbxamarinios/omdbios/FirstViewController.cs" line="97" column="1" />
-      <Breakpoint file="/Users/nikhilsingh/GitHub/omdbxamarinios/omdbios/Service/OMDBService.cs" line="236" column="1" />
       <Breakpoint file="/Users/nikhilsingh/GitHub/omdbxamarinios/omdbios/FirstViewController.cs" line="98" column="1" />
-      <Breakpoint file="/Users/nikhilsingh/GitHub/omdbxamarinios/omdbios/Service/OMDBService.cs" line="225" column="1" />
       <Breakpoint file="/Users/nikhilsingh/GitHub/omdbxamarinios/omdbios/SecondViewController.cs" line="30" column="1" />
       <Breakpoint file="/Users/nikhilsingh/GitHub/omdbxamarinios/omdbios/SecondViewController.cs" line="31" column="1" />
       <Breakpoint file="/Users/nikhilsingh/GitHub/omdbxamarinios/omdbios/DetailsViewController.cs" line="73" column="1" />

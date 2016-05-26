@@ -1,0 +1,275 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12D2C00F0000000000000000 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1663CCAD0000000000000000 /* Entitlements.plist */; };
+		15327A050000000000000000 /* MoviesViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 18C386A30000000000000000 /* MoviesViewController.h */; };
+		1D6AFEAE0000000000000000 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20FC0B4C0000000000000000 /* SecondViewController.m */; };
+		1FB2BCC30000000000000000 /* MoviesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2343C9610000000000000000 /* MoviesViewController.m */; };
+		22AE0B670000000000000000 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 263F18050000000000000000 /* Images.xcassets */; };
+		285107A40000000000000000 /* SecondViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 2BE214420000000000000000 /* SecondViewController.h */; };
+		286BEEDF0000000000000000 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BFCFB7D0000000000000000 /* Main.storyboard */; };
+		291C94140000000000000000 /* DetailsViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 2CADA0B20000000000000000 /* DetailsViewController.h */; };
+		294F77300000000000000000 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE083CE0000000000000000 /* AppDelegate.m */; };
+		2A1B03A00000000000000000 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2DAC103E0000000000000000 /* Info.plist */; };
+		2C7ABD960000000000000000 /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 300BCA340000000000000000 /* DetailsViewController.m */; };
+		2F0D5AA80000000000000000 /* CustomViewCell.h in Sources */ = {isa = PBXBuildFile; fileRef = 329E67460000000000000000 /* CustomViewCell.h */; };
+		30884A2B0000000000000000 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 341956C90000000000000000 /* CoreGraphics.framework */; };
+		347F1D010000000000000000 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3810299F0000000000000000 /* UIKit.framework */; };
+		35FB4EA60000000000000000 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 398C5B440000000000000000 /* Foundation.framework */; };
+		35FC90C80000000000000000 /* CustomViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 398D9D660000000000000000 /* CustomViewCell.m */; };
+		361778030000000000000000 /* 1461511844_icon-ios7-arrow-back.png in Resources */ = {isa = PBXBuildFile; fileRef = 39A884A10000000000000000 /* 1461511844_icon-ios7-arrow-back.png */; };
+		3B6E53210000000000000000 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EFF5FBF0000000000000000 /* MapKit.framework */; };
+		B4AE09B00000000000000000 /* AppDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = EDBED3900000000000000000 /* AppDelegate.h */; };
+		C166D0B00000000000000000 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA779A900000000000000000 /* LaunchScreen.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1663CCAD0000000000000000 /* Entitlements.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		18C386A30000000000000000 /* MoviesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoviesViewController.h; sourceTree = "<group>"; };
+		20FC0B4C0000000000000000 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		2343C9610000000000000000 /* MoviesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoviesViewController.m; sourceTree = "<group>"; };
+		263F18050000000000000000 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2BE214420000000000000000 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		2BFCFB7D0000000000000000 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		2CADA0B20000000000000000 /* DetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
+		2CE083CE0000000000000000 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2DAC103E0000000000000000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		300BCA340000000000000000 /* DetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
+		329E67460000000000000000 /* CustomViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomViewCell.h; sourceTree = "<group>"; };
+		341956C90000000000000000 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		375F846A0000000000000000 /* MoviesDirectory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoviesDirectory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3810299F0000000000000000 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		398C5B440000000000000000 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		398D9D660000000000000000 /* CustomViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomViewCell.m; sourceTree = "<group>"; };
+		39A884A10000000000000000 /* 1461511844_icon-ios7-arrow-back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1461511844_icon-ios7-arrow-back.png"; sourceTree = "<group>"; };
+		3EFF5FBF0000000000000000 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		EDBED3900000000000000000 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FA779A900000000000000000 /* LaunchScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C4BDA600000000000000000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				347F1D010000000000000000 /* UIKit.framework in Frameworks */,
+				3B6E53210000000000000000 /* MapKit.framework in Frameworks */,
+				35FB4EA60000000000000000 /* Foundation.framework in Frameworks */,
+				30884A2B0000000000000000 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		223F48AB0000000000000000 /* MoviesDirectory */ = {
+			isa = PBXGroup;
+			children = (
+				39A884A10000000000000000 /* 1461511844_icon-ios7-arrow-back.png */,
+				EDBED3900000000000000000 /* AppDelegate.h */,
+				329E67460000000000000000 /* CustomViewCell.h */,
+				2CADA0B20000000000000000 /* DetailsViewController.h */,
+				1663CCAD0000000000000000 /* Entitlements.plist */,
+				263F18050000000000000000 /* Images.xcassets */,
+				2DAC103E0000000000000000 /* Info.plist */,
+				FA779A900000000000000000 /* LaunchScreen.xib */,
+				2BFCFB7D0000000000000000 /* Main.storyboard */,
+				18C386A30000000000000000 /* MoviesViewController.h */,
+				2BE214420000000000000000 /* SecondViewController.h */,
+				CD8FCF700000000000000000 /* Supporting Files */,
+			);
+			name = MoviesDirectory;
+			sourceTree = "<group>";
+		};
+		2D1224C80000000000000000 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3810299F0000000000000000 /* UIKit.framework */,
+				3EFF5FBF0000000000000000 /* MapKit.framework */,
+				398C5B440000000000000000 /* Foundation.framework */,
+				341956C90000000000000000 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3CE5B5BE0000000000000000 = {
+			isa = PBXGroup;
+			children = (
+				223F48AB0000000000000000 /* MoviesDirectory */,
+				2D1224C80000000000000000 /* Frameworks */,
+				798DB9800000000000000000 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		798DB9800000000000000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				375F846A0000000000000000 /* MoviesDirectory.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD8FCF700000000000000000 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2CE083CE0000000000000000 /* AppDelegate.m */,
+				398D9D660000000000000000 /* CustomViewCell.m */,
+				300BCA340000000000000000 /* DetailsViewController.m */,
+				2343C9610000000000000000 /* MoviesViewController.m */,
+				20FC0B4C0000000000000000 /* SecondViewController.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CF26E850000000000000000 /* MoviesDirectory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 124C01720000000000000000 /* Build configuration list for PBXNativeTarget "MoviesDirectory" */;
+			buildPhases = (
+				397371600000000000000000 /* Sources */,
+				2C4BDA600000000000000000 /* Frameworks */,
+				21CB97A20000000000000000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoviesDirectory;
+			productName = MoviesDirectory;
+			productReference = 375F846A0000000000000000 /* MoviesDirectory.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF36E7000000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+			};
+			buildConfigurationList = 37A5945F0000000000000000 /* Build configuration list for PBXProject "MoviesDirectory" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3CE5B5BE0000000000000000;
+			productRefGroup = 798DB9800000000000000000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CF26E850000000000000000 /* MoviesDirectory */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21CB97A20000000000000000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22AE0B670000000000000000 /* Images.xcassets in Resources */,
+				C166D0B00000000000000000 /* LaunchScreen.xib in Resources */,
+				286BEEDF0000000000000000 /* Main.storyboard in Resources */,
+				2A1B03A00000000000000000 /* Info.plist in Resources */,
+				12D2C00F0000000000000000 /* Entitlements.plist in Resources */,
+				361778030000000000000000 /* 1461511844_icon-ios7-arrow-back.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		397371600000000000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4AE09B00000000000000000 /* AppDelegate.h in Sources */,
+				294F77300000000000000000 /* AppDelegate.m in Sources */,
+				291C94140000000000000000 /* DetailsViewController.h in Sources */,
+				2C7ABD960000000000000000 /* DetailsViewController.m in Sources */,
+				15327A050000000000000000 /* MoviesViewController.h in Sources */,
+				1FB2BCC30000000000000000 /* MoviesViewController.m in Sources */,
+				285107A40000000000000000 /* SecondViewController.h in Sources */,
+				1D6AFEAE0000000000000000 /* SecondViewController.m in Sources */,
+				2F0D5AA80000000000000000 /* CustomViewCell.h in Sources */,
+				35FC90C80000000000000000 /* CustomViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		174612DC0000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				PRODUCT_NAME = MoviesDirectory;
+				WRAPPER_EXTENSION = app;
+			};
+			name = MonoTouch;
+		};
+		1A769B4A0000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+			};
+			name = MonoTouch;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		124C01720000000000000000 /* Build configuration list for PBXNativeTarget "MoviesDirectory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				174612DC0000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+		37A5945F0000000000000000 /* Build configuration list for PBXProject "MoviesDirectory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A769B4A0000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF36E7000000000000000000 /* Project object */;
+}

@@ -1,13 +1,11 @@
 // WARNING
 //
-// This file has been generated automatically by Xamarin Studio from the outlets and
-// actions declared in your storyboard file.
-// Manual changes to this file will not be maintained.
+// This file has been generated automatically by Xamarin Studio to store outlets and
+// actions made in the UI designer. If it is removed, they will be lost.
+// Manual changes to this file may not be handled correctly.
 //
 using Foundation;
-using System;
 using System.CodeDom.Compiler;
-using UIKit;
 
 namespace MoviesDirectory
 {
@@ -15,143 +13,181 @@ namespace MoviesDirectory
 	partial class DetailsViewController
 	{
 		[Outlet]
-		[GeneratedCode ("iOS Designer", "1.0")]
-		UIButton btnBack { get; set; }
+		UIKit.NSLayoutConstraint _constraintlblGenreHeight { get; set; }
 
 		[Outlet]
-		[GeneratedCode ("iOS Designer", "1.0")]
-		UIImageView imagePoster { get; set; }
+		UIKit.UIButton btnBack { get; set; }
 
 		[Outlet]
-		[GeneratedCode ("iOS Designer", "1.0")]
-		UILabel labelActorName { get; set; }
+		UIKit.NSLayoutConstraint constraintLblActorsHeight { get; set; }
 
 		[Outlet]
-		[GeneratedCode ("iOS Designer", "1.0")]
-		UILabel labelActors { get; set; }
+		UIKit.NSLayoutConstraint constraintlblAwardsHeight { get; set; }
 
 		[Outlet]
-		[GeneratedCode ("iOS Designer", "1.0")]
-		UILabel labelAwards { get; set; }
+		UIKit.NSLayoutConstraint constraintLblDirectorsHeight { get; set; }
 
 		[Outlet]
-		[GeneratedCode ("iOS Designer", "1.0")]
-		UILabel labelAwardsName { get; set; }
+		UIKit.NSLayoutConstraint constraintLblLanguagesHeight { get; set; }
 
 		[Outlet]
-		[GeneratedCode ("iOS Designer", "1.0")]
-		UILabel labelDirectors { get; set; }
+		UIKit.UIImageView imagePoster { get; set; }
 
 		[Outlet]
-		[GeneratedCode ("iOS Designer", "1.0")]
-		UILabel labelDirectorsName { get; set; }
+		UIKit.UILabel labelActorName { get; set; }
 
 		[Outlet]
-		[GeneratedCode ("iOS Designer", "1.0")]
-		UILabel labelGenre { get; set; }
+		UIKit.UILabel labelActors { get; set; }
 
 		[Outlet]
-		[GeneratedCode ("iOS Designer", "1.0")]
-		UILabel labelGenreName { get; set; }
+		UIKit.UILabel labelAwards { get; set; }
 
 		[Outlet]
-		[GeneratedCode ("iOS Designer", "1.0")]
-		UILabel labelIMDBRating { get; set; }
+		UIKit.UILabel labelAwardsName { get; set; }
 
 		[Outlet]
-		[GeneratedCode ("iOS Designer", "1.0")]
-		UILabel labelIMDBRatingName { get; set; }
+		UIKit.UILabel labelDirectors { get; set; }
 
 		[Outlet]
-		[GeneratedCode ("iOS Designer", "1.0")]
-		UILabel labelLanguage { get; set; }
+		UIKit.UILabel labelDirectorsName { get; set; }
 
 		[Outlet]
-		[GeneratedCode ("iOS Designer", "1.0")]
-		UILabel labelLanguageName { get; set; }
+		UIKit.UILabel labelGenre { get; set; }
 
 		[Outlet]
-		[GeneratedCode ("iOS Designer", "1.0")]
-		UILabel labelReleaseDate { get; set; }
+		UIKit.UILabel labelGenreName { get; set; }
 
 		[Outlet]
-		[GeneratedCode ("iOS Designer", "1.0")]
-		UILabel labelReleaseDateName { get; set; }
+		UIKit.UILabel labelIMDBRating { get; set; }
 
 		[Outlet]
-		[GeneratedCode ("iOS Designer", "1.0")]
-		UILabel labelTitle { get; set; }
+		UIKit.UILabel labelIMDBRatingName { get; set; }
+
+		[Outlet]
+		UIKit.UILabel labelLanguage { get; set; }
+
+		[Outlet]
+		UIKit.UILabel labelLanguageName { get; set; }
+
+		[Outlet]
+		UIKit.UILabel labelReleaseDate { get; set; }
+
+		[Outlet]
+		UIKit.UILabel labelReleaseDateName { get; set; }
+
+		[Outlet]
+		UIKit.UILabel labelTitle { get; set; }
 
 		[Action ("BackButton_TouchupInside:")]
-		[GeneratedCode ("iOS Designer", "1.0")]
-		partial void BackButton_TouchupInside (UIButton sender);
-
+		partial void BackButton_TouchupInside (UIKit.UIButton sender);
+		
 		void ReleaseDesignerOutlets ()
 		{
+			if (_constraintlblGenreHeight != null) {
+				_constraintlblGenreHeight.Dispose ();
+				_constraintlblGenreHeight = null;
+			}
+
+			if (constraintlblAwardsHeight != null) {
+				constraintlblAwardsHeight.Dispose ();
+				constraintlblAwardsHeight = null;
+			}
+
 			if (btnBack != null) {
 				btnBack.Dispose ();
 				btnBack = null;
 			}
+
+			if (constraintLblActorsHeight != null) {
+				constraintLblActorsHeight.Dispose ();
+				constraintLblActorsHeight = null;
+			}
+
+			if (constraintLblDirectorsHeight != null) {
+				constraintLblDirectorsHeight.Dispose ();
+				constraintLblDirectorsHeight = null;
+			}
+
+			if (constraintLblLanguagesHeight != null) {
+				constraintLblLanguagesHeight.Dispose ();
+				constraintLblLanguagesHeight = null;
+			}
+
 			if (imagePoster != null) {
 				imagePoster.Dispose ();
 				imagePoster = null;
 			}
+
 			if (labelActorName != null) {
 				labelActorName.Dispose ();
 				labelActorName = null;
 			}
+
 			if (labelActors != null) {
 				labelActors.Dispose ();
 				labelActors = null;
 			}
+
 			if (labelAwards != null) {
 				labelAwards.Dispose ();
 				labelAwards = null;
 			}
+
 			if (labelAwardsName != null) {
 				labelAwardsName.Dispose ();
 				labelAwardsName = null;
 			}
+
 			if (labelDirectors != null) {
 				labelDirectors.Dispose ();
 				labelDirectors = null;
 			}
+
 			if (labelDirectorsName != null) {
 				labelDirectorsName.Dispose ();
 				labelDirectorsName = null;
 			}
+
 			if (labelGenre != null) {
 				labelGenre.Dispose ();
 				labelGenre = null;
 			}
+
 			if (labelGenreName != null) {
 				labelGenreName.Dispose ();
 				labelGenreName = null;
 			}
+
 			if (labelIMDBRating != null) {
 				labelIMDBRating.Dispose ();
 				labelIMDBRating = null;
 			}
+
 			if (labelIMDBRatingName != null) {
 				labelIMDBRatingName.Dispose ();
 				labelIMDBRatingName = null;
 			}
+
 			if (labelLanguage != null) {
 				labelLanguage.Dispose ();
 				labelLanguage = null;
 			}
+
 			if (labelLanguageName != null) {
 				labelLanguageName.Dispose ();
 				labelLanguageName = null;
 			}
+
 			if (labelReleaseDate != null) {
 				labelReleaseDate.Dispose ();
 				labelReleaseDate = null;
 			}
+
 			if (labelReleaseDateName != null) {
 				labelReleaseDateName.Dispose ();
 				labelReleaseDateName = null;
 			}
+
 			if (labelTitle != null) {
 				labelTitle.Dispose ();
 				labelTitle = null;
